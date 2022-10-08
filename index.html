@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Frontend Mentor | Time tracking dashboard</title>
+
+</head>
+<body>
+  <main class="dashboard">
+    <div class="header">
+      <div class="profile">
+        <div class="avatar"><img src="images/image-jeremy.png" alt="avatar"></div>
+        <div>
+          <span class="subtitle">Report for</span>
+          <h1>Jeremy Robson</h1>
+        </div>
+      </div>
+      <div class="period">
+       <a id="daily" href="#">Daily</a>
+       <a id="weekly" href="#">Weekly</a>
+       <a id="monthly" href="#">Monthly</a>
+      </div>     
+    </div>
+    <div class="card work">
+      <div class="card_data">
+        <div class="flex">
+          <h2>Work</h2>
+          <span class="more"></span>
+        </div>
+        <div>
+          <span class="current">32hrs</span>
+          <span class="previous">Previous - 36hrs</span>
+        </div>
+      </div>
+    </div>
+    <div class="card play">
+      <div class="card_data">
+        <div class="flex">
+          <h2>Play</h2>
+          <span class="more"></span>
+        </div>
+        <div>
+          <span class="current">10hrs</span>
+          <span class="previous">Previous - 8hrs</span>
+        </div>
+      </div>
+    </div>
+    <div class="card study">
+      <div class="card_data">
+        <div class="flex">
+          <h2>Study</h2>
+          <span class="more"></span>
+        </div>
+        <div>
+          <span class="current">4hrs</span>
+          <span class="previous">Previous - 7hrs</span>
+        </div>
+      </div>
+    </div>
+    <div class="card exercise">
+      <div class="card_data">
+        <div class="flex">
+          <h2>Exercise</h2>
+          <span class="more"></span>
+        </div>
+        <div>
+          <span class="current">4hrs</span>
+          <span class="previous">Previous - 5hrs</span>
+        </div>
+      </div>
+    </div>
+    <div class="card social">
+      <div class="card_data">
+        <div class="flex">
+          <h2>Social</h2>
+          <span class="more"></span>
+        </div>
+        <div>
+          <span class="current">5hrs</span>
+          <span class="previous">Previous - 10hrs</span>
+        </div>
+      </div>
+    </div>
+    <div class="card self_care">
+      <div class="card_data">
+        <div class="flex">
+          <h2>Self Care</h2>
+          <span class="more"></span>
+        </div>
+        <div>
+          <span class="current">2hrs</span>
+          <span class="previous">Previous - 2hrs</span>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="./js/fillCards.js"></script>
+</body>
+</html>
