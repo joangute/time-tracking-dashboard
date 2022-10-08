@@ -72,6 +72,7 @@ span{
   border-radius: 1rem;
   padding: 2.0625rem 1.75rem;
   margin-bottom: 1.6875rem;
+  max-height: 68.34%;
 }
 
 .avatar{
@@ -160,7 +161,7 @@ h1{
 h2{
   margin: 0;
   display: inline-block;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 1.125rem;
 }
 
@@ -194,6 +195,7 @@ h2{
   margin-top: 0.4375rem;
   margin-bottom: 0.125rem;
   color: var(--pale);
+  font-weight: 400;
 }    
 
 @media(max-width: 1024px){      
